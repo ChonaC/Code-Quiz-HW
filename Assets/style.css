@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+  --blue: rgb(6, 6, 141); 
+  --orange: orange;
+  --brown: brown;
+  --tan: tan;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+button {
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 25px;
+  background-color: var(--brown);
+  color: var(--orange);
+}
+
+#startBtn {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#highScore {
+  color: var(--brown)
+}
+
+#setTimer {
+/* how to set this text to the right of the page and same line as highscore */
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  color: var(--brown);
+}
+
+#title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 75px;
+  text-align: center;
+  color: var(--brown)
+}
+
+#quizBox p {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 20px;
+  text-align: center;
+  color: var(--brown)
+}
